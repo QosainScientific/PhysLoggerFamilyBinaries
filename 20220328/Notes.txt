@@ -1,0 +1,6 @@
+Instruments are built after the Non-OOP PhysInstrument version (Except PhysWatt and SMC)
+FT is built on the CubeIDE toolchain (on laptop)
+
+PhysHivolt contains the code for UI for both 2.0 and 2.1. 
+	> Short Pin 2 and 3 on Pro mini for 2.1
+	> Short Pin 4 and 3 on Pro mini for 2.0 (Or leave Pin 3 open on Pro mini)
