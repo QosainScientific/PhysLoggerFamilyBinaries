@@ -1,3 +1,10 @@
-busybox.exe sh stm32CubeProg.sh 2 PhysLoggerG2.ino.bin -g
 @echo off
-pause 3
+cd /d "%~dp0"
+
+
+:loop
+cls
+echo Uploading %~1
+busybox.exe sh stm32CubeProg.sh 2 %~1 -g
+timeout /t 3 /nobreak
+goto loop
