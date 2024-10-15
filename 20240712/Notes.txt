@@ -1,2 +1,15 @@
 Added Display binaries for HV 1,10,30KV
 Added Display binaries for Peltier Heater
+
+
+PhysLogger:
+Drop the respective .bin file of PhysLogger on "__Drop any PhysLogger Binary on me__.bat"
+All harwdware support Gen3 now.
+Gen3_F4V_PhysLoggerG2.ino is for STM32F4 based Loggers with voltage feedback
+Gen3_F1U_PhysLoggerG2.ino is for STM32F1 based Loggers with USB mode (without FT232).
+
+These boards are obsolete:
+STM32F4 without the voltage feedback.
+STM32F1C8T6
+
+To Upload, simply drag and drop the firmware on the respective uploader.
