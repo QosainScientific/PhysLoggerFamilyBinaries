@@ -1,0 +1,32 @@
+<quantity>
+	unique{$space$}signature = 20210816002;
+	code{$space$}name = PhysHygro_Humidity;
+	device{$space$}name = PhysHygro;
+	id = 58;
+	developer = Qosain{$space$}Scientific;
+	website = www.qosain.pk{$fs$}physbar;
+	description = PhysHygro{$space$}is{$space$}a{$space$}digital{$space$}PhysInstrument{$space$}for{$space$}reliable{$space$}and{$space$}fast{$space$}gauge{$space$}pressure{$space$}measurement.;
+	title = Relative{$space$}Humidity{$open$}:{$end$}Relative{$space$}Humidity;
+	symbol = RH;
+	alphabatic{$space$}symbol = RH;
+	is{$space$}output = false;
+	<wizard{$space$}presence>
+		presence = measure;
+		title = Humidity;
+	</wizard{$space$}presence>
+	<unit>
+		type = Percentage;
+		selected = %;
+	</unit>
+	<tags>
+		tag01 = Humidity;
+		tag11 = PhysHygro;
+		tag21 = PhysInstrument;
+	</tags>
+	<visual{$space$}generator>
+		class = generic;
+		width = 650;
+		<basic{$space$}header>
+		</basic{$space$}header>
+	</visual{$space$}generator>
+</quantity>

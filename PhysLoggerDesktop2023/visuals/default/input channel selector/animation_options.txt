@@ -1,0 +1,8 @@
+//ignore=true
+seed=
+search pattern=*.*
+duration=800
+//period=800
+loop=true
+reverse=true
+//repeat after=3000

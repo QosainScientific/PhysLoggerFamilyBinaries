@@ -1,0 +1,38 @@
+<quantity>
+	unique{$space$}signature = 20211011001;
+	code{$space$}name = PhysLoad;
+	device{$space$}name = PhysLoad;
+	id = 36;
+	developer = Qosain{$space$}Scientific;
+	website = qosain.pk{$fs$}physload;
+	description = Wide{$space$}range{$space$}mass{$space$}live{$space$}mass{$space$}and{$space$}force{$space$}measurement;
+	title = Mass{$open$}:{$end$}مادہ{$space$}کی{$space$}مقدار;
+	symbol = m;
+	alphabatic{$space$}symbol = m;
+	is{$space$}output = false;
+	<wizard{$space$}presence>
+		presence = measure;
+		title = Mass;
+	</wizard{$space$}presence>
+	<unit>
+		type = Mass;
+		selected = g;
+	</unit>
+	<tags>
+		tag01 = load;
+		tag11 = mass;
+		tag21 = force;
+		tag31 = physload;
+	</tags>
+	<visual{$space$}generator>
+		class = generic;
+		width = 650;
+		<basic{$space$}header>
+		</basic{$space$}header>
+		<comm{$space$}send>
+			label = Tare;
+			property{$space$}name = tare;
+			value = 1;
+		</comm{$space$}send>
+	</visual{$space$}generator>
+</quantity>

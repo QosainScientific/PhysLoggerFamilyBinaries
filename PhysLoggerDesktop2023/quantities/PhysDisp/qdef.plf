@@ -1,0 +1,42 @@
+<quantity>
+	unique{$space$}signature = 20211006001;
+	code{$space$}name = PhysDisp;
+	device{$space$}name = PhysDisp;
+	id = 56;
+	developer = Qosain{$space$}Scientific;
+	website = qosain.pk{$fs$}physdisp;
+	description = Contactless{$space$}distance{$space$}measurement{$space$}using{$space$}ToF{$space$}of{$space$}IR{$space$}light{$space$}of{$space$}distances{$space$}up{$space$}to{$space$}1.2{$space$}meters;
+	title = Distance{$open$}:{$end$}Ditance;
+	symbol = d;
+	alphabatic{$space$}symbol = d;
+	is{$space$}output = false;
+	<wizard{$space$}presence>
+		presence = measure;
+		title = Distance;
+	</wizard{$space$}presence>
+	<unit>
+		type = Distance;
+		selected = mm;
+	</unit>
+	<tags>
+		tag01 = Distance;
+		tag11 = PhysInstrument;
+		tag21 = PhysDisp;
+	</tags>
+	<visual{$space$}generator>
+		class = generic;
+		width = 650;
+		<basic{$space$}header>
+		</basic{$space$}header>
+		<comm{$space$}send>
+			label = Tare;
+			property{$space$}name = tare;
+			value = 1;
+		</comm{$space$}send>
+		<comm{$space$}send>
+			label = Reset;
+			property{$space$}name = t0;
+			value = 1;
+		</comm{$space$}send>
+	</visual{$space$}generator>
+</quantity>

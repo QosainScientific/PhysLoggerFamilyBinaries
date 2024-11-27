@@ -1,0 +1,30 @@
+<quantity>
+	unique{$space$}signature = 20210925002;
+	code{$space$}name = ArduinoReader;
+	device{$space$}name = ArduinoReader;
+	id = 60;
+	developer = Qosain{$space$}Scientific;
+	website = www.qosain.pk{$fs$}arduinoreader;
+	description = Integrate{$space$}Ardunio{$space$}based{$space$}sensors{$space$}with{$space$}PhysLogger;
+	title = ArduinoReader{$open$}:{$end$}ArduinoReader;
+	symbol = ard;
+	alphabatic{$space$}symbol = ;
+	is{$space$}output = false;
+	<wizard{$space$}presence>
+		presence = none;
+	</wizard{$space$}presence>
+	<unit>
+		type = Unitless;
+		selected = units;
+	</unit>
+	<tags>
+		tag01 = Arduino;
+		tag11 = Reader;
+	</tags>
+	<visual{$space$}generator>
+		class = generic;
+		width = 650;
+		<basic{$space$}header>
+		</basic{$space$}header>
+	</visual{$space$}generator>
+</quantity>

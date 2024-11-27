@@ -1,0 +1,7 @@
+background 	= #FF404040
+text 	= #FFFFFFFF
+shadows = #64FFFFFF
+plot boundary		= #FF989898
+axis center lines 	= #FF989898
+axis major lines 	= #FF7F7F7F
+axis minor lines 	= #FF676767

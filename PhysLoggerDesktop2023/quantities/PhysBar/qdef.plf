@@ -1,0 +1,41 @@
+<quantity>
+	unique{$space$}signature = 20211008001;
+	code{$space$}name = PhysBar;
+	device{$space$}name = PhysBar;
+	id = 47;
+	developer = Qosain{$space$}Scientific;
+	website = qosaink.pk{$fs$}physbar;
+	description = Wide{$space$}range{$space$}gauge{$space$}pressure{$space$}measurement{$space$}instrument{$space$}for{$space$}fluid{$space$}analysis;
+	title = Pressure{$open$}:{$end$}دبائو;
+	symbol = P;
+	alphabatic{$space$}symbol = P;
+	is{$space$}output = false;
+	<wizard{$space$}presence>
+		presence = measure;
+		title = Pressure;
+	</wizard{$space$}presence>
+	<unit>
+		type = Pressure;
+		selected = kPa;
+	</unit>
+	<tags>
+		tag01 = pressure;
+		tag11 = physbar;
+	</tags>
+	<visual{$space$}generator>
+		class = generic;
+		width = 650;
+		<basic{$space$}header>
+		</basic{$space$}header>
+		<comm{$space$}send>
+			label = Tare;
+			property{$space$}name = tare;
+			value = 1;
+		</comm{$space$}send>
+		<comm{$space$}send>
+			label = Reset{$space$}Tare;
+			property{$space$}name = t0;
+			value = 1;
+		</comm{$space$}send>
+	</visual{$space$}generator>
+</quantity>

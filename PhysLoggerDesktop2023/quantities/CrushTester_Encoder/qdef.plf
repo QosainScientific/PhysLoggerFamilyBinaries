@@ -1,0 +1,38 @@
+<quantity>
+	unique{$space$}signature = 20230228001;
+	code{$space$}name = CrushTester_Encoder
+	device{$space$}name = CrushTester;
+	id = 101;
+	developer = Qosain{$space$}Scientific;
+	website = qosain.pk{$fs$}physload;
+	description = Wide{$space$}range{$space$}mass{$space$}live{$space$}mass{$space$}and{$space$}force{$space$}measurement;
+	title = Distance{$open$}:{$end$}اونچائی;
+	symbol = L;
+	alphabatic{$space$}symbol = L;
+	is{$space$}output = false;
+	<wizard{$space$}presence>
+		presence = none;
+		title = Length;
+	</wizard{$space$}presence>
+	<unit>
+		type = Distance
+		selected = mm;
+	</unit>
+	<tags>
+		tag01 = load;
+		tag11 = mass;
+		tag21 = force;
+		tag31 = physload;
+	</tags>
+	<visual{$space$}generator>
+		class = generic;
+		width = 650;
+		<basic{$space$}header>
+		</basic{$space$}header>
+		<comm{$space$}send>
+			label = Tare;
+			property{$space$}name = tare;
+			value = 1;
+		</comm{$space$}send>
+	</visual{$space$}generator>
+</quantity>

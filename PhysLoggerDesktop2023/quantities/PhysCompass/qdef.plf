@@ -1,0 +1,42 @@
+<quantity>
+	unique{$space$}signature = 20220211001;
+	code{$space$}name = PhysCompass;
+	device{$space$}name = PhysCompass;
+	id = 29;
+	developer = Qosain{$space$}Scientific;
+	website = qosain.pk{$fs$}physcompass;
+	description = Qosain{$space$}Scientific{$space$}PhysCompass;
+	title = Angle{$open$}:{$end$}زاویہ;
+	symbol = Θ;
+	alphabatic{$space$}symbol = th;
+	is{$space$}output = false;
+	<wizard{$space$}presence>
+		presence = measure;
+		title = Rotation;
+	</wizard{$space$}presence>
+	<unit>
+		type = Angle;
+		selected = °;
+	</unit>
+	<tags>
+		tag01 = rotation;
+		tag11 = physcompass;
+		tag21 = physinstrument;
+	</tags>
+	<visual{$space$}generator>
+		class = generic;
+		width = 650;
+		<basic{$space$}header>
+		</basic{$space$}header>
+		<comm{$space$}send>
+			label = Calibrate;
+			property{$space$}name = calib;
+			value = 1;
+		</comm{$space$}send>
+		<comm{$space$}send>
+			label = Tare;
+			property{$space$}name = tare;
+			value = 1;
+		</comm{$space$}send>
+	</visual{$space$}generator>
+</quantity>

@@ -1,0 +1,32 @@
+<quantity>
+	unique{$space$}signature = 20210816001;
+	code{$space$}name = PhysHygro_Temp;
+	device{$space$}name = PhysHygro;
+	id = 57;
+	developer = Qosain{$space$}Scientific;
+	website = www.qosain.pk{$fs$}physbar;
+	description = PhysBar{$space$}is{$space$}a{$space$}digital{$space$}PhysInstrument{$space$}for{$space$}reliable{$space$}and{$space$}fast{$space$}gauge{$space$}pressure{$space$}measurement.;
+	title = Ambient{$space$}Temperature{$open$}:{$end$}درجہ{$space$}حرارت;
+	symbol = T;
+	alphabatic{$space$}symbol = T;
+	is{$space$}output = false;
+	<wizard{$space$}presence>
+		presence = measure;
+		title = Temperature;
+	</wizard{$space$}presence>
+	<unit>
+		type = Temperature;
+		selected = ºC;
+	</unit>
+	<tags>
+		tag01 = Temperature;
+		tag11 = PhysHygro;
+		tag21 = PhysInstrument;
+	</tags>
+	<visual{$space$}generator>
+		class = generic;
+		width = 650;
+		<basic{$space$}header>
+		</basic{$space$}header>
+	</visual{$space$}generator>
+</quantity>

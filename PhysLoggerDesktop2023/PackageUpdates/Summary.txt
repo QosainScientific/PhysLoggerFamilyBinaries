@@ -1,0 +1,10 @@
+Application Title = PhysLogger Desktop
+Company = Qosain Scientific
+Last Updated = 2020-Jan-22 07:26:26
+Whats New = Built with the latest VCSExtensions which removes a glitch that prevents clean exit of PhysMag most of the times.<$lb$><$lb$>Note: If PhysMag is already installed, the computer must be restarted before applying this update.
+Current Version = 2
+About = This is the user interface and control application that goes with Qosain Scientific's Magnetic pendulum apparatus, called, PhysMag
+App ID = 69B76D45803D69ED746D9CA7ED43AF53
+Update Size= 2 MB
+Final Size = 21.13 MB
+Default Exe = Qosain PhysMag.exe

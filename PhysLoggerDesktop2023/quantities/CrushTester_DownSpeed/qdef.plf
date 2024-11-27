@@ -1,0 +1,36 @@
+<quantity>
+	unique{$space$}signature = 20230228001;
+	code{$space$}name = CrushTester_DownSpeed
+	device{$space$}name = CrushTester;
+	id = 109;
+	developer = Qosain{$space$}Scientific;
+	website = qosain.pk{$fs$}physload;
+	description = Wide{$space$}range{$space$}mass{$space$}live{$space$}mass{$space$}and{$space$}force{$space$}measurement;
+	title = Down Speed{$open$}:{$end$}نیچےکی رفتار;
+	symbol = S;
+	alphabatic{$space$}symbol = S;
+	is{$space$}output = true;
+	<wizard{$space$}presence>
+		presence = none;
+		title = Length;
+	</wizard{$space$}presence>
+	<unit>
+		type = Unitless
+		selected = ;
+	</unit>
+	<tags>
+		tag01 = load;
+		tag11 = mass;
+		tag21 = force;
+		tag31 = physload;
+	</tags>
+	<visual{$space$}generator>
+		class = generic;
+		width = 650;
+		<basic{$space$}header>
+		</basic{$space$}header>
+		<output>
+			source string = Source;
+		</output>
+	</visual{$space$}generator>
+</quantity>
